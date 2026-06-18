@@ -421,7 +421,7 @@ def _render_admin_announcements() -> None:
 def main() -> None:
     """應用程式主入口。"""
     st.set_page_config(
-        page_title="🌸 可愛留言板",
+        page_title="有事請留言",
         page_icon="🌸",
         layout="centered",
         initial_sidebar_state="auto",
@@ -436,7 +436,7 @@ def main() -> None:
     render_sidebar_login()
 
     st.markdown(
-        '<div class="main-title">🌸 可愛留言板</div>'
+        '<div class="main-title">🌸 有事請留言</div>'
         '<div class="main-subtitle">溫暖的小角落，歡迎你來留言 🐰✨</div>',
         unsafe_allow_html=True,
     )
