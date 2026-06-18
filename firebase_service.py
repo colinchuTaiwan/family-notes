@@ -41,9 +41,9 @@ from utils import get_client_ip_hash, sanitize_input
 logger = logging.getLogger(__name__)
 
 # Realtime Database 路徑
-_PATH_MESSAGES: str = "messages"
-_PATH_ANNOUNCEMENTS: str = "announcements"
-_PATH_VISITORS: str = "visitor_counts"
+_PATH_MESSAGES: str = "family-notes/messages"
+_PATH_ANNOUNCEMENTS: str = "family-notes/announcements"
+_PATH_VISITORS: str = "family-notes/visitor_counts"
 
 
 # ─── Firebase 初始化 ───────────────────────────────────────────────────────────
